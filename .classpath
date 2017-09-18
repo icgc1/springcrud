@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_101">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/activation.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/aopalliance.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/asm-commons-2.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/asm-util-2.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/aspectjlib.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/backport-util-concurrent.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-attributes-api.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-attributes-compiler.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-codec.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-io.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/commons-pool-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/concurrent.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/derby.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/freemarker.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/hibernate3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/hibernate-tools.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/iText-2.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jaas.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jasperreports-2.0.5.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/javassist.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jaxen-1.1-beta-7.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-aop-jdk50.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-archive-browsing.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-common.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-j2ee.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-jmx.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-minimal.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-serialization.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jboss-system.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jcl-over-slf4j-1.5.8.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jcs-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jdbm-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jta.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jtds-1.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/junit.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/jxl.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/ldapbp-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/log4j.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/mail.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/ognl-2.6.9.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/org.springframework.binding-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/org.springframework.js-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/org.springframework.webflow-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/persistence.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/poi-3.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/portlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/qdox.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/slf4j-jdk14-1.5.8.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-agent.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-aop.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-aspects.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-beans.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-context.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-context-support.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-core.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-dao.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-hibernate2.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-hibernate3.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-ibatis.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-jca.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-jdo.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-jms.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-jmx.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-jpa.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-ldap-1.3.0.RELEASE-all.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-ldap-1.3.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-modules-cache.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-orm.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-portlet.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-remoting.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-struts.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-support.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-tomcat-weaver.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-toplink.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-tx.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-web.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/struts.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-api-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-el-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-jsp-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-ognl-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-servlet-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/tiles-servlet-wildcard-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/trove.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/velocity-1.5.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/velocity-tools-view-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/xerces-2.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/All jars/Spring jars/Spring 2.0.5/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

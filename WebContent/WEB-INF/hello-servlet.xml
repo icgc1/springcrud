@@ -1,0 +1,76 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<!-- Creating Basic DataSource -->
+	<bean id="ds" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource" >
+		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+		<property name="username" value="SYSTEM" />
+		<property name="password" value="tiger" />
+		<property name="maxActive" value="15" />
+		<property name="maxIdle" value="5" />
+		<property name="maxWait" value="5000" />
+		</bean>
+
+
+<!-- Creating HiberNate Session factory -->
+	<bean id="sf"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="ds" />
+		<property name="mappingResources">
+			<list>
+				<value>resources/Employee.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop><!-- create,update -->
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+
+<!-- HiberNate Template -->
+	<bean id="hbt" class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory" ref="sf" />
+	</bean>
+	
+	
+	<!-- StudentDaoImpl -->
+	<bean id="dao" class="dao.EmployeeDao">
+		<property name="ht" ref="hbt" />
+	</bean>
+
+<bean id="bo" class="business.EmployeeBO">
+		<property name="dao" ref="dao" />
+		
+		</bean>
+		
+		
+	<!-- Handler Mappings -->
+	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/empsave.ds">EmpCrud</prop>
+				<prop key="/empupdate.ds">EmpCrud</prop>
+				<prop key="/empdelete.ds">EmpCrud</prop>
+				<prop key="/empfind.ds">EmpCrud</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- Controller -->
+	<bean id="EmpCrud" class="controller.EmpCrudController">
+		<property name="edo" ref="dao" />
+	</bean>
+	
+	
+
+	<!-- ViewResolver -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+</beans>
